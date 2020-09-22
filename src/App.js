@@ -17,22 +17,6 @@ class App extends Component {
       data: data + value
     })
   }
-  // decimal = (value) => {
-  //   const { data } = this.state;
-
-  //   if (data.indexOf(".") === -1) {
-  //     this.setState({ 
-  //       data: data + value
-  //     });
-  //   }
-  // }
-  // zero = (value) => {
-  //   const { data } = this.state;
-
-  //   if (data !== "") {
-  //     this.setState({ data: data + value });
-  //   }
-  // }
   add = () => {
 
     const { data } = this.state;
